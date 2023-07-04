@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 60vw;
+  height: 130vh;
+  border: 1px solid black;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+
+/* Here Left Section Start */
+/* Here Left Section Start */
+/* Here Left Section Start */
+/* Here Left Section Start */
+.leftSide {
+  width: 40%;
+  height: 130vh;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+.line {
+  width: 15em;
+  border: 1px solid white;
+  color: white;
+  margin: 10px 0px;
+}
+.utility {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 10px;
+}
+.utility li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+.utility li a {
+  text-decoration: none;
+  color: white;
+}
+.dotUtility {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  padding: 0px 20px;
+}
+
+/* Here Right Section Start */
+/* Here Right Section Start */
+/* Here Right Section Start */
+/* Here Right Section Start */
+.rightSide {
+  width: 60%;
+  height: 120vh;
+  color: black;
+  padding: 20px;
+}
+.nameHeading {
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.nameSubHeading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
+  text-align: center;
+}
+.rightHeading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.rightLine {
+  width: 25em;
+  border: 1px solid black;
+  color: black;
+  margin: 10px 0px;
+}
+.description {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  text-align: justify;
+}
+.educationDetails {
+  display: flex;
+  flex-direction: column;
+}
+.educationheading {
+  font-size: 15px;
+  margin: 0px 0px 5px 0px;
+}
+.clgDesciption {
+  margin-bottom: 5px;
+}
+.projectHeading {
+  font-size: 15px;
+  margin: 0px 0px 5px 0px;
+}
